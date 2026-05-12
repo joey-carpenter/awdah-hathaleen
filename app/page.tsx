@@ -10,8 +10,8 @@ export default function Home() {
                         Who is Awdah Hathaleen?
                     </h1>
                     <p className="font-serif text-2xl leading-snug italic">
-                        Teacher, father, activist, and victim of settler
-                        violence.
+                        Teacher, father, activist, and victim of "settler
+                        violence."
                     </p>
                     <div className="flex flex-col justify-center gap-8 border-b border-stone-300 pb-8 font-sans text-sm text-stone-500">
                         <span className="tracking-wider uppercase">
