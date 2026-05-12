@@ -63,6 +63,47 @@ export default function Home() {
                     </p>
                 </section>
 
+                <figure className="w-full max-w-3xl px-6 py-12">
+                    <p className="mb-6 font-sans text-xs tracking-[0.25em] text-stone-500 uppercase">
+                        Israeli press coverage, July 29, 2025
+                    </p>
+                    <ul className="divide-y divide-stone-200 font-serif">
+                        {[
+                            ["Ynet", "Brief, police-version", true],
+                            [
+                                "Jerusalem Post",
+                                "Framed as 'clashes with settlers'",
+                                true,
+                            ],
+                            [
+                                "Israel Hayom",
+                                "No English coverage found",
+                                false,
+                            ],
+                            ["Arutz Sheva", "No English coverage found", false],
+                        ].map(([outlet, summary, covered]) => (
+                            <li
+                                key={outlet as string}
+                                className="flex items-center justify-between py-4"
+                            >
+                                <div>
+                                    <p className="text-lg font-medium">
+                                        {outlet}
+                                    </p>
+                                    <p className="font-sans text-sm text-stone-500">
+                                        {summary}
+                                    </p>
+                                </div>
+                                <span
+                                    className={`font-sans text-xs tracking-wider uppercase ${covered ? "text-stone-700" : "text-stone-400"}`}
+                                >
+                                    {covered ? "Covered" : "Silent"}
+                                </span>
+                            </li>
+                        ))}
+                    </ul>
+                </figure>
+
                 <section className="flex max-w-3xl flex-col gap-6 px-6 py-12">
                     <p className="text-justify text-xl leading-relaxed">
                         Following the incident, multiple witness accounts and
@@ -248,7 +289,7 @@ export default function Home() {
                 {/* Pull quote */}
                 <aside className="max-w-2xl px-6 py-16">
                     <blockquote className="border-l-2 border-stone-900 pl-8">
-                        <p className="text-3xl leading-snug font-medium italic">
+                        <p className="text-3xl leading-snug italic">
                             "Why do Israelis see us as terrorists and enemies?
                             Why is the world not acting to achieve justice for
                             Palestinians?"
@@ -327,6 +368,19 @@ export default function Home() {
                         the half-dunam of dirt where the children of Umm
                         al-Khair played in Awdah's memory.
                     </p>
+                </section>
+
+                {/* Section continues */}
+                <section className="flex max-w-3xl gap-6 px-6 py-12">
+                    <a href="https://www.pcrf.net/" className="underline">
+                        palestinian children's relief fund
+                    </a>
+                    <a
+                        href="https://www.972mag.com/writer/awdah-hathaleen/"
+                        className="underline"
+                    >
+                        Read Awdah's Essays
+                    </a>
                 </section>
 
                 {/* Footer spacing */}
