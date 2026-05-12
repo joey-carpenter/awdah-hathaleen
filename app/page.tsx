@@ -379,7 +379,7 @@ export default function Home() {
                         href="https://www.972mag.com/writer/awdah-hathaleen/"
                         className="underline"
                     >
-                        Read Awdah's Essays
+                        read awdah's essays
                     </a>
                 </section>
 
