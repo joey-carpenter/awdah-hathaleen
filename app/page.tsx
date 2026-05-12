@@ -6,7 +6,7 @@ export default function Home() {
             <article className="flex w-full max-w-5xl flex-col items-start">
                 {/* Hero */}
                 <header className="flex max-w-5xl flex-col items-start gap-8 px-6 pt-24 font-serif">
-                    <h1 className="font-sans text-6xl leading-[1.05] font-bold tracking-tight md:text-7xl">
+                    <h1 className="font-sans text-4xl leading-[1.05] font-bold tracking-tight md:text-6xl">
                         Who is Awdah Hathaleen?
                     </h1>
                     <p className="font-serif text-2xl leading-snug italic">
@@ -49,10 +49,17 @@ export default function Home() {
                         the UK (The US lifted their sanction in January of
                         2025). Awdah’s story has been covered and given the
                         respect it deserves across the world by a variety of
-                        sources. But in Israel, you might read the Jerusalem
-                        Post and become aware that a Palestinian was shot dead
-                        in “clashes with settlers.” Israel Hayom, Israel’s most
-                        read newspaper, did not publish a story on the killing.
+                        sources. But in Israel, the story is covered
+                        differently. The{" "}
+                        <a
+                            href="https://www.jpost.com/middle-east/article-862575"
+                            className="underline"
+                        >
+                            Jerusalem Post
+                        </a>{" "}
+                        reported that a Palestinian was shot dead in “clashes
+                        with settlers.” Israel Hayom, Israel’s most read
+                        newspaper, did not publish a story on the killing.
                     </p>
                 </section>
 
@@ -62,28 +69,89 @@ export default function Home() {
                         reports describe behavior from individuals present in
                         very contradicting ways. According to the Israeli
                         military, the confrontation involved Palestinians,
-                        referred to as terrorists, “hurling stones at Israeli
-                        civilians near the area of Carmel in Judea,” framing the
-                        event as a response to a threat to their lives. In this
-                        view, the situation is presented as a conflict in which
-                        force was used under pressure of danger, rather than as
-                        an act of aggression toward Awdah Hathaleen himself.
-                        However, witness testimony and reporting from the scene
-                        describe a different emotional environment surrounding
-                        Awdah’s death. One nurse said that, “‘Amid the chaos and
-                        screaming, what stood out was the laughter—settlers and
-                        soldiers beside us, laughing [While Awdah died],’”
+                        referred to as terrorists,{" "}
+                        <a
+                            href="https://www.latimes.com/entertainment-arts/story/2025-07-29/awdah-hathaleen-killed-no-other-land-palestinian-activist-israeli-settler"
+                            className="underline"
+                        >
+                            “hurling stones at Israeli civilians near the area
+                            of Carmel in Judea,”
+                        </a>{" "}
+                        framing the event as a response to a threat to their
+                        lives. In this view, the situation is presented as a
+                        conflict in which force was used under pressure of
+                        danger, rather than as an act of aggression toward Awdah
+                        Hathaleen himself. However, witness testimony and
+                        reporting from the scene describe a different emotional
+                        environment surrounding Awdah’s death. One nurse said
+                        that,{" "}
+                        <a
+                            href="https://www.dropsitenews.com/p/awdah-hathaleen-killing-israeli-settler-masafer-yatta-west-bank"
+                            className="underline"
+                        >
+                            “‘Amid the chaos and screaming, what stood out was
+                            the laughter—settlers and soldiers beside us,
+                            laughing [While Awdah died],’”
+                        </a>{" "}
                         suggesting no empathy was shown in the aftermath of the
-                        shooting. In another account, witnesses reported that
-                        three other soldiers on the scene wished they had been
-                        the ones to shoot him, adding further concerns about the
-                        way Awdah Hathaleen was treated in those moments. As one
-                        report noted, Levi, the perpetrator, later stated, “I’m
-                        glad I did it,” according to witnesses. After Awdah’s
-                        death, authorities refused to immediately return his
-                        body and imposed strict conditions on the funeral,
-                        including limiting attendance and requiring burial
-                        outside his village.
+                        shooting. In another account,{" "}
+                        <a
+                            href="https://www.aljazeera.com/news/2025/7/29/who-was-awdah-hathaleen-palestinian-activist-killed-by-an-israeli-settler"
+                            className="underline"
+                        >
+                            witnesses reported
+                        </a>{" "}
+                        that three other soldiers on the scene wished they had
+                        been the ones to shoot him, adding further concerns
+                        about the way Awdah Hathaleen was treated in those
+                        moments. As one report noted, Levi, the perpetrator,
+                        later stated, “I’m glad I did it,” according to
+                        witnesses. After Awdah’s death, authorities refused to
+                        immediately return his body and imposed strict
+                        conditions on the funeral, including limiting attendance
+                        and requiring burial outside his village.
+                    </p>
+                </section>
+
+                <section className="flex max-w-3xl flex-col gap-6 px-6 py-12">
+                    <p className="text-justify text-xl leading-relaxed">
+                        While Awdah’s story has been rewritten in an effort to
+                        absolve the actions of his killer, the reality is
+                        entirely different. On the day of Awdah’s death, in the
+                        South Hebron Hills of Palestine, tensions between
+                        Israeli settlers and Palestinian residents turned deadly
+                        after settlers began excavation work on land designated
+                        by Israel as “state land,” near infrastructures
+                        supplying water and electricity to the village of Um-al
+                        Khier. Among those present was Israeli settler Yinon
+                        Levi, whom residents accused of helping remove
+                        Palestinians from nearby villages in the past couple
+                        years. Villagers quickly gathered at the site, demanding
+                        the work stop before future damage could be done to the
+                        communities infrastructure, but the excavation continued
+                        throughout the afternoon. By around 5 p.m., the
+                        excavator began moving towards Um al-Kheir itself,
+                        causing some residents to throw stones as a way to block
+                        them. Witnesses say the excavator’s driver struck Ahmad
+                        al-Hathaleen with the machine’s hammer attachment,
+                        leaving him unconscious. Soon after, Levi arrived with a
+                        handgun, escalating panic among the crowd as a
+                        confrontation broke out between him and the young men
+                        from the village. Moments later, he began to shoot.
+                        Awdah al-Hathaleen, a Palestinian activist and volunteer
+                        with human rights organization B’Tselem, was shot in the
+                        chest and later died at a hospital. In the aftermath of
+                        his passing, grief in the village deepened into outrage.
+                        B’Tselem reported that{" "}
+                        <a
+                            href="https://www.btselem.org/sites/default/files/2025-07/202507_letter_from_israli_police_staton_in_hebron_to_al_hathaleen_family_restricting_the_funeral_and_mourning_rites.pdf"
+                            className="underline"
+                        >
+                            “after the autopsy, the police refused to return
+                            al-Hathaleen’s body to his family for burial,
+                            conditioning its release on extreme restrictions for
+                            the funeral.”
+                        </a>
                     </p>
                 </section>
 
@@ -156,7 +224,13 @@ export default function Home() {
                         supporting spaces for recreation such as local sports
                         and informational gatherings for children within the
                         village. People who knew him spoke about his ability to
-                        build connections across differences. As one account
+                        build connections across differences. As{" "}
+                        <a
+                            href="https://progressive.org/latest/awdah-hathaleen-showed-me-how-to-imagine-freedom-stein-20250807/"
+                            className="underline"
+                        >
+                            one account
+                        </a>
                         describes, "Nobody else in the world could turn an upper
                         class, suburban, white American Jew into ‘just one of
                         the guys’ in a tiny Bedouin Palestinian village under
@@ -191,24 +265,36 @@ export default function Home() {
                         Awdah was also a Palestinian schoolteacher who taught
                         English to the people in his village. According to
                         reports by Al Jazeera, he taught his students English so
-                        that they could reach wider audiences, “in hopes of
-                        ending Israel’s occupation, which has ravaged his
-                        village.” He was also a peace activist who played a big
-                        role in improving situations that occurred in his
-                        community. In his article, “Demolishing Our Dreams,” he
-                        tells the world of the many times that the Israelis have
-                        demolished his village. Once during an exam he received
-                        a phone call from his brother where he learned the
-                        horrible news that the Israelis had returned to demolish
-                        everything they’ve rebuilt. He entered a panic and had
-                        thoughts swirling around his head until he came to the
-                        conclusion that when you live in Um al-Khair, you must
-                        be able to balance caring for your village and focusing
-                        on the exam. Awdah expressed that “sometimes [they
-                        thought] that the Israelis want to demolish more after
-                        [they] rebuild than when [they] originally built a way
-                        to try to crush [their] souls.” This insight shows that
-                        no matter how hard they work to resist the Israeli
+                        that they could reach wider audiences,{" "}
+                        <a
+                            href="https://truthout.org/articles/no-other-land-contributors-killer-released-as-israeli-soldiers-raid-mourners/"
+                            className="underline"
+                        >
+                            “in hopes of ending Israel’s occupation, which has
+                            ravaged his village.”
+                        </a>{" "}
+                        He was also a peace activist who played a big role in
+                        improving situations that occurred in his community. In
+                        his article,{" "}
+                        <a
+                            href="https://icahd.org/2020/05/15/awdah-hathaleen/"
+                            className="underline"
+                        >
+                            “Demolishing Our Dreams,”
+                        </a>{" "}
+                        he tells the world of the many times that the Israelis
+                        have demolished his village. Once during an exam he
+                        received a phone call from his brother where he learned
+                        the horrible news that the Israelis had returned to
+                        demolish everything they’ve rebuilt. He entered a panic
+                        and had thoughts swirling around his head until he came
+                        to the conclusion that when you live in Um al-Khair, you
+                        must be able to balance caring for your village and
+                        focusing on the exam. Awdah expressed that “sometimes
+                        [they thought] that the Israelis want to demolish more
+                        after [they] rebuild than when [they] originally built a
+                        way to try to crush [their] souls.” This insight shows
+                        that no matter how hard they work to resist the Israeli
                         demolitions, they’ll never see an end.
                     </p>
                 </section>
@@ -220,12 +306,18 @@ export default function Home() {
                         Real Madrid fan. Awdah loved soccer because he viewed it
                         as a way of peaceful resistance and a way to provide a
                         better life for local children, to which he was
-                        passionately devoted. According to ICN, “he was
-                        determined to ensure that their lives would be better
-                        than his.” After Awdah was killed, the village of Umm
-                        al-Khair built a small children's football pitch — about
-                        half a dunam (around 500 square meters) — on the very
-                        spot where he was shot. They named it the Awdah
+                        passionately devoted. According to{" "}
+                        <a
+                            href="https://www.indcatholicnews.com/news/52931"
+                            className="underline"
+                        >
+                            ICN
+                        </a>
+                        , “he was determined to ensure that their lives would be
+                        better than his.” After Awdah was killed, the village of
+                        Umm al-Khair built a small children's football pitch —
+                        about half a dunam (around 500 square meters) — on the
+                        very spot where he was shot. They named it the Awdah
                         Hathaleen Memorial Stadium. But the memorial didn't
                         last. Pro-settler organization Regavim petitioned the
                         Israeli government, calling the pitch a "security
