@@ -271,7 +271,7 @@ export default function Home() {
                             className="underline"
                         >
                             one account
-                        </a>
+                        </a>{" "}
                         describes, "Nobody else in the world could turn an upper
                         class, suburban, white American Jew into ‘just one of
                         the guys’ in a tiny Bedouin Palestinian village under
@@ -289,7 +289,7 @@ export default function Home() {
                 {/* Pull quote */}
                 <aside className="max-w-2xl px-6 py-16">
                     <blockquote className="border-l-2 border-stone-900 pl-8">
-                        <p className="text-3xl leading-snug italic">
+                        <p className="text-xl leading-snug italic">
                             "Why do Israelis see us as terrorists and enemies?
                             Why is the world not acting to achieve justice for
                             Palestinians?"
